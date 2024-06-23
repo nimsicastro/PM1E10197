@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transacciones.VerFoto">
+
+    <ScrollView
+        android:layout_width="360dp"
+        android:layout_height="688dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/volverb"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_700"
+                android:text="Atras" />
+
+            <ImageView
+                android:id="@+id/imagenvcontacto"
+                android:layout_width="match_parent"
+                android:layout_height="466dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
